@@ -433,7 +433,14 @@ p {
   font-weight: bold;
 }
 
-.client-category ul li:hover {
+.client-category ul li a {
+  color: var(--secondary-color);
+  /* Removed underline from service links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.client-category ul li a:hover {
   color: var(--text-primary);
 }
 
