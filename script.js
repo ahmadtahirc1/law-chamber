@@ -209,7 +209,10 @@ serviceSelect.addEventListener("change", function () {
 
 // Preload critical images
 function preloadImages() {
-  const images = ["/pakistani-law-office-with-scales-of-justice.jpg", "/pakistani-high-court-advocate-in-traditional-legal.jpg"]
+  const images = [
+    "/pakistani-law-office-with-scales-of-justice.jpg",
+    "/pakistani-high-court-advocate-in-traditional-legal.jpg",
+  ]
 
   images.forEach((src) => {
     const img = new Image()
